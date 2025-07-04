@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tentang Kami - FIXA XITERZ</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 30px 20px;
+      background-color: #000;
+      font-family: 'Segoe UI', sans-serif;
+      color: #00ff99;
+      line-height: 1.7;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #00ff99;
+      text-shadow: 0 0 10px #00ff99;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #0a0a0a;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 153, 0.1);
+      animation: fadeIn 1s ease;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .team {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .member {
+      background-color: rgba(0, 255, 153, 0.05);
+      border-left: 3px solid #00ff99;
+      padding: 12px 16px;
+      border-radius: 8px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .container { padding: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tentang Kami</h1>
+
+  <div class="container">
+
+    <!-- Deskripsi Singkat -->
+    <div class="section">
+      <h2>🧠 Siapa Kami?</h2>
+      <p>
+        FIXA XITERZ adalah tim pengembang dan penyedia solusi fitur premium, bypass, dan injektor untuk berbagai platform gaming. Kami berdiri dengan komitmen untuk memberikan pengalaman maksimal dan performa terbaik bagi user kami.
+      </p>
+    </div>
+
+    <!-- Visi Misi -->
+    <div class="section">
+      <h2>🎯 Visi & Misi</h2>
+      <p><strong>Visi:</strong> Menjadi platform injektor & panel terpercaya yang memberikan layanan stabil, aman, dan cepat untuk semua player.</p>
+      <p><strong>Misi:</strong></p>
+      <ul>
+        <li>✔️ Menyediakan fitur yang selalu update & kompatibel</li>
+        <li>✔️ Memberikan dukungan 24/7 kepada pembeli</li>
+        <li>✔️ Menjamin keamanan dan kenyamanan penggunaan</li>
+      </ul>
+    </div>
+
+    <!-- Tim (Opsional) -->
+    <div class="section">
+      <h2>👥 Tim di Balik Layar</h2>
+      <div class="team">
+        <div class="member">
+          <strong>FIXA (Founder)</strong><br>
+          Pengembang utama fitur dan sistem bypass multi-platform.
+        </div>
+        <div class="member">
+          <strong>XITERZ (Support & Admin)</strong><br>
+          Penanganan customer, order, & penjelasan tutorial.
+        </div>
+        <div class="member">
+          <strong>VORTEX (Tester & QC)</strong><br>
+          Quality control & tester semua file sebelum rilis ke user.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+<a href="menu.html" class="back-button">← KEMBALI</a>
+
+<style>
+  .back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 24px;
+    color: #00ff99;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #00ff99;
+    border-radius: 8px;
+    background: transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+  }
+
+  .back-button:hover {
+    background-color: rgba(0, 191, 255, 0.1);
+    color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+    transform: scale(1.05);
+  }
+</html>
